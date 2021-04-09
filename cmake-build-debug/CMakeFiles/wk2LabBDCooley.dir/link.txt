@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/wk2LabBDCooley.dir/main.cpp.o CMakeFiles/wk2LabBDCooley.dir/Deque.cpp.o -o wk2LabBDCooley 

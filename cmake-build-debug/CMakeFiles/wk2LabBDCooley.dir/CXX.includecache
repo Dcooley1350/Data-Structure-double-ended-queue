@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrwebdevin/Documents/LCC/cs260/2week/wk2LabBDCooley/Deque.hpp
+string
+-
+
+/home/jrwebdevin/Documents/LCC/cs260/2week/wk2LabBDCooley/main.cpp
+iostream
+-
+stdexcept
+-
+Deque.hpp
+/home/jrwebdevin/Documents/LCC/cs260/2week/wk2LabBDCooley/Deque.hpp
+
