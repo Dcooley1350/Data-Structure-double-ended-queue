@@ -338,11 +338,20 @@ int main()
     const int NUM_THINK = 5;
     int thinkValues[NUM_THINK] = {2, 3, 5, 7, 11};
 
-
-
+    // Create double ended queue
+    Deque stack(NUM_THINK);
+    // Add values to the stack
+    for (int val:thinkValues) {
+        stack.addTail(val);
+    }
 
     std::cout << "Values in reverse order should be 11 7 5 3 2" << std::endl;
-
+    std::cout << "Values in reverse order are       ";
+    // Remove values from the stack
+    for (int i = 0; i < NUM_THINK; i++) {
+        std::cout << stack.removeTail() << " ";
+    }
+    std::cout << std::endl;
     std::cout <<std::endl << "Done with thinking test" << std::endl << std::endl;
 
 
